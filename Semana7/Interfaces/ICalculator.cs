@@ -6,6 +6,14 @@
     public interface ICalculator
     {
         /// <summary>
+        /// Multiplicacions the specified valor1.
+        /// </summary>
+        /// <param name="valor1">The valor1.</param>
+        /// <param name="valor2">The valor2.</param>
+        /// <returns> valor1 * valor2</returns>
+        int Multiplicacion(int valor1, int valor2);
+
+        /// <summary>
         /// Sums the specified valor1 with valor2.
         /// </summary>
         /// <param name="valor1">The valor1.</param>

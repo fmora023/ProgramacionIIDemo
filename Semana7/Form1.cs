@@ -22,6 +22,12 @@ namespace Semana7
             this.ResetValues();
         }
 
+        private void btn_Mult_Click(object sender, EventArgs e)
+        {
+            var (valor1, valor2) = this.GetIntegerParameters();
+            this.MostrarResultado(this.Calculator.Multiplicacion(valor1, valor2), "multiplicacion");
+        }
+
         private void btn_Suma_Click(object sender, EventArgs e)
         {
             var (valor1, valor2) = this.GetIntegerParameters();

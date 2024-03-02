@@ -35,6 +35,7 @@ namespace Semana7
             this.tbx_Valor2 = new System.Windows.Forms.TextBox();
             this.btn_Suma = new System.Windows.Forms.Button();
             this.btn_Resta = new System.Windows.Forms.Button();
+            this.btn_Mult = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_Valor1
@@ -89,11 +90,22 @@ namespace Semana7
             this.btn_Resta.UseVisualStyleBackColor = true;
             this.btn_Resta.Click += new System.EventHandler(this.btn_Resta_Click);
             // 
+            // btn_Mult
+            // 
+            this.btn_Mult.Location = new System.Drawing.Point(276, 344);
+            this.btn_Mult.Name = "btn_Mult";
+            this.btn_Mult.Size = new System.Drawing.Size(195, 29);
+            this.btn_Mult.TabIndex = 6;
+            this.btn_Mult.Text = "Ejecutar Multiplicacion";
+            this.btn_Mult.UseVisualStyleBackColor = true;
+            this.btn_Mult.Click += new System.EventHandler(this.btn_Mult_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Mult);
             this.Controls.Add(this.btn_Resta);
             this.Controls.Add(this.btn_Suma);
             this.Controls.Add(this.tbx_Valor2);
@@ -115,6 +127,7 @@ namespace Semana7
         private System.Windows.Forms.TextBox tbx_Valor2;
         private System.Windows.Forms.Button btn_Suma;
         private System.Windows.Forms.Button btn_Resta;
+        private System.Windows.Forms.Button btn_Mult;
     }
 }
 

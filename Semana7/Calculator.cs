@@ -47,5 +47,15 @@ namespace Semana7
         /// valor1 + valor2
         /// </returns>
         public int Suma(int valor1, int valor2) => valor1 + valor2;
+
+        /// <summary>
+        /// Multiplicacions the specified valor1.
+        /// </summary>
+        /// <param name="valor1">The valor1.</param>
+        /// <param name="valor2">The valor2.</param>
+        /// <returns>
+        /// valor1 * valor2
+        /// </returns>
+        public int Multiplicacion(int valor1, int valor2) => valor1 * valor2;
     }
 }
