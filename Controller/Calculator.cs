@@ -1,6 +1,6 @@
-﻿using Semana7.Interfaces;
+﻿using Controller.Interfaces;
 
-namespace Semana7
+namespace Controller
 {
     /// <summary>
     /// Implementation for ICalculator interface.
@@ -57,5 +57,20 @@ namespace Semana7
         /// valor1 * valor2
         /// </returns>
         public int Multiplicacion(int valor1, int valor2) => valor1 * valor2;
+
+        /// <summary>
+        /// Divide valor1/valor2
+        /// </summary>
+        /// <param name="valor1"></param>
+        /// <param name="valor2"></param>
+        /// <returns> valor1/valor2 </returns>
+        public int Division(int valor1, int valor2)
+        {            
+            if (valor2 == 0)
+            {
+                return -1;
+            }
+            return valor1 / valor2;
+        }
     }
 }

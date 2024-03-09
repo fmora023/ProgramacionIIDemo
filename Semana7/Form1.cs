@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Controller;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Semana7
@@ -40,6 +43,13 @@ namespace Semana7
             var (valor1, valor2) = this.GetIntegerParameters();
             var result = this.Calculator.Resta(valor1, valor2);
             this.MostrarResultado(result, "resta");
+        }
+
+        private void btn_Div_Click(object sender, EventArgs e)
+        {
+            var (valor1, valor2) = this.GetIntegerParameters();
+            var result = this.Calculator.Division(valor1, valor2);
+            this.MostrarResultado(result, "division");
         }
 
         private (int, int) GetIntegerParameters()

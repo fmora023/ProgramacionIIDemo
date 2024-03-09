@@ -1,0 +1,70 @@
+﻿@page "/"
+@using Controller
+
+<div>
+    <h3>Calculadora</h3>
+
+    <label>Valor 1 a operar: </label>
+    <input @bind="Value1" inputmode="numeric" />
+    <br />
+    <label>Valor 2 a operar: </label>
+    <input @bind="Value2" inputmode="numeric" />
+    <br />
+    <br />
+    <button @onclick="btn_Resta_Click" >Ejecutar Resta</button>
+    <button @onclick="btn_Division_Click" >Ejecutar Division</button>
+    <button @onclick="btn_Multiplicacion_Click" >Ejecutar Multiplicacion</button>
+    <button @onclick="btn_Suma_Click" >Ejecutar Suma</button>
+    <br />
+    <br />
+
+    <img style="width: 200px;" src="https://img.freepik.com/vector-gratis/diseno-etiqueta-calculadora-aislada_1308-60994.jpg" />
+
+    <br />
+    <br />
+    <label>El resultado de la operacion @Operacion es: @Result</label>
+</div>
+
+@code {
+    private Calculator Calculator => Calculator.GetInstance();
+
+    private int Result { get; set; }
+
+    private int Value1 { get; set; }
+
+    private int Value2 { get; set; }
+
+    private string Operacion { get; set; } = string.Empty;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        this.Value1 = 0; 
+        this.Value2 = 0; 
+        this.Result = 0;
+    }
+
+    private void btn_Resta_Click()
+    {
+        this.Result = Calculator.Resta(Value1, Value2);
+        this.Operacion = "Resta";
+    }
+
+    private void btn_Division_Click()
+    {
+        this.Result = Calculator.Division(Value1, Value2);
+        this.Operacion = "Division";
+    }
+
+    private void btn_Multiplicacion_Click()
+    {
+        this.Result = Calculator.Multiplicacion(Value1, Value2);
+        this.Operacion = "Multiplicacion";
+    }
+
+    private void btn_Suma_Click()
+    {
+        this.Result = Calculator.Suma(Value1, Value2);
+        this.Operacion = "Suma";
+    }
+}

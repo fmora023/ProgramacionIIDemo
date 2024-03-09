@@ -29,94 +29,105 @@ namespace Semana7
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_Valor1 = new System.Windows.Forms.Label();
-            this.lbl_Value2 = new System.Windows.Forms.Label();
-            this.tbx_Valor1 = new System.Windows.Forms.TextBox();
-            this.tbx_Valor2 = new System.Windows.Forms.TextBox();
-            this.btn_Suma = new System.Windows.Forms.Button();
-            this.btn_Resta = new System.Windows.Forms.Button();
-            this.btn_Mult = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            lbl_Valor1 = new System.Windows.Forms.Label();
+            lbl_Value2 = new System.Windows.Forms.Label();
+            tbx_Valor1 = new System.Windows.Forms.TextBox();
+            tbx_Valor2 = new System.Windows.Forms.TextBox();
+            btn_Suma = new System.Windows.Forms.Button();
+            btn_Resta = new System.Windows.Forms.Button();
+            btn_Mult = new System.Windows.Forms.Button();
+            btn_Div = new System.Windows.Forms.Button();
+            SuspendLayout();
             // 
             // lbl_Valor1
             // 
-            this.lbl_Valor1.AutoSize = true;
-            this.lbl_Valor1.Location = new System.Drawing.Point(61, 52);
-            this.lbl_Valor1.Name = "lbl_Valor1";
-            this.lbl_Valor1.Size = new System.Drawing.Size(118, 20);
-            this.lbl_Valor1.TabIndex = 0;
-            this.lbl_Valor1.Text = "Valor 1 a operar:";
+            lbl_Valor1.AutoSize = true;
+            lbl_Valor1.Location = new System.Drawing.Point(61, 52);
+            lbl_Valor1.Name = "lbl_Valor1";
+            lbl_Valor1.Size = new System.Drawing.Size(118, 20);
+            lbl_Valor1.TabIndex = 0;
+            lbl_Valor1.Text = "Valor 1 a operar:";
             // 
             // lbl_Value2
             // 
-            this.lbl_Value2.AutoSize = true;
-            this.lbl_Value2.Location = new System.Drawing.Point(61, 125);
-            this.lbl_Value2.Name = "lbl_Value2";
-            this.lbl_Value2.Size = new System.Drawing.Size(118, 20);
-            this.lbl_Value2.TabIndex = 1;
-            this.lbl_Value2.Text = "Valor 2 a operar:";
+            lbl_Value2.AutoSize = true;
+            lbl_Value2.Location = new System.Drawing.Point(61, 125);
+            lbl_Value2.Name = "lbl_Value2";
+            lbl_Value2.Size = new System.Drawing.Size(118, 20);
+            lbl_Value2.TabIndex = 1;
+            lbl_Value2.Text = "Valor 2 a operar:";
             // 
             // tbx_Valor1
             // 
-            this.tbx_Valor1.Location = new System.Drawing.Point(265, 52);
-            this.tbx_Valor1.Name = "tbx_Valor1";
-            this.tbx_Valor1.Size = new System.Drawing.Size(125, 27);
-            this.tbx_Valor1.TabIndex = 2;
+            tbx_Valor1.Location = new System.Drawing.Point(265, 52);
+            tbx_Valor1.Name = "tbx_Valor1";
+            tbx_Valor1.Size = new System.Drawing.Size(125, 27);
+            tbx_Valor1.TabIndex = 2;
             // 
             // tbx_Valor2
             // 
-            this.tbx_Valor2.Location = new System.Drawing.Point(265, 125);
-            this.tbx_Valor2.Name = "tbx_Valor2";
-            this.tbx_Valor2.Size = new System.Drawing.Size(125, 27);
-            this.tbx_Valor2.TabIndex = 3;
+            tbx_Valor2.Location = new System.Drawing.Point(265, 125);
+            tbx_Valor2.Name = "tbx_Valor2";
+            tbx_Valor2.Size = new System.Drawing.Size(125, 27);
+            tbx_Valor2.TabIndex = 3;
             // 
             // btn_Suma
             // 
-            this.btn_Suma.Location = new System.Drawing.Point(520, 344);
-            this.btn_Suma.Name = "btn_Suma";
-            this.btn_Suma.Size = new System.Drawing.Size(140, 29);
-            this.btn_Suma.TabIndex = 4;
-            this.btn_Suma.Text = "Ejecutar Suma";
-            this.btn_Suma.UseVisualStyleBackColor = true;
-            this.btn_Suma.Click += new System.EventHandler(this.btn_Suma_Click);
+            btn_Suma.Location = new System.Drawing.Point(612, 344);
+            btn_Suma.Name = "btn_Suma";
+            btn_Suma.Size = new System.Drawing.Size(140, 29);
+            btn_Suma.TabIndex = 4;
+            btn_Suma.Text = "Ejecutar Suma";
+            btn_Suma.UseVisualStyleBackColor = true;
+            btn_Suma.Click += btn_Suma_Click;
             // 
             // btn_Resta
             // 
-            this.btn_Resta.Location = new System.Drawing.Point(61, 344);
-            this.btn_Resta.Name = "btn_Resta";
-            this.btn_Resta.Size = new System.Drawing.Size(148, 29);
-            this.btn_Resta.TabIndex = 5;
-            this.btn_Resta.Text = "Ejecutar Resta";
-            this.btn_Resta.UseVisualStyleBackColor = true;
-            this.btn_Resta.Click += new System.EventHandler(this.btn_Resta_Click);
+            btn_Resta.Location = new System.Drawing.Point(31, 344);
+            btn_Resta.Name = "btn_Resta";
+            btn_Resta.Size = new System.Drawing.Size(148, 29);
+            btn_Resta.TabIndex = 5;
+            btn_Resta.Text = "Ejecutar Resta";
+            btn_Resta.UseVisualStyleBackColor = true;
+            btn_Resta.Click += btn_Resta_Click;
             // 
             // btn_Mult
             // 
-            this.btn_Mult.Location = new System.Drawing.Point(276, 344);
-            this.btn_Mult.Name = "btn_Mult";
-            this.btn_Mult.Size = new System.Drawing.Size(195, 29);
-            this.btn_Mult.TabIndex = 6;
-            this.btn_Mult.Text = "Ejecutar Multiplicacion";
-            this.btn_Mult.UseVisualStyleBackColor = true;
-            this.btn_Mult.Click += new System.EventHandler(this.btn_Mult_Click);
+            btn_Mult.Location = new System.Drawing.Point(378, 344);
+            btn_Mult.Name = "btn_Mult";
+            btn_Mult.Size = new System.Drawing.Size(195, 29);
+            btn_Mult.TabIndex = 6;
+            btn_Mult.Text = "Ejecutar Multiplicacion";
+            btn_Mult.UseVisualStyleBackColor = true;
+            btn_Mult.Click += btn_Mult_Click;
+            // 
+            // btn_Div
+            // 
+            btn_Div.Location = new System.Drawing.Point(198, 344);
+            btn_Div.Name = "btn_Div";
+            btn_Div.Size = new System.Drawing.Size(154, 29);
+            btn_Div.TabIndex = 6;
+            btn_Div.Text = "Ejecutar Division";
+            btn_Div.UseVisualStyleBackColor = true;
+            btn_Div.Click += btn_Div_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn_Mult);
-            this.Controls.Add(this.btn_Resta);
-            this.Controls.Add(this.btn_Suma);
-            this.Controls.Add(this.tbx_Valor2);
-            this.Controls.Add(this.tbx_Valor1);
-            this.Controls.Add(this.lbl_Value2);
-            this.Controls.Add(this.lbl_Valor1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(btn_Div);
+            Controls.Add(btn_Mult);
+            Controls.Add(btn_Resta);
+            Controls.Add(btn_Suma);
+            Controls.Add(tbx_Valor2);
+            Controls.Add(tbx_Valor1);
+            Controls.Add(lbl_Value2);
+            Controls.Add(lbl_Valor1);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -128,6 +139,7 @@ namespace Semana7
         private System.Windows.Forms.Button btn_Suma;
         private System.Windows.Forms.Button btn_Resta;
         private System.Windows.Forms.Button btn_Mult;
+        private System.Windows.Forms.Button btn_Div;
     }
 }
 
