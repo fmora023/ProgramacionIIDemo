@@ -37,6 +37,8 @@ namespace Semana7
             btn_Resta = new System.Windows.Forms.Button();
             btn_Mult = new System.Windows.Forms.Button();
             btn_Div = new System.Windows.Forms.Button();
+            cbx_People = new System.Windows.Forms.ComboBox();
+            btn_LoadData = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // lbl_Valor1
@@ -111,11 +113,31 @@ namespace Semana7
             btn_Div.UseVisualStyleBackColor = true;
             btn_Div.Click += btn_Div_Click;
             // 
+            // cbx_People
+            // 
+            cbx_People.FormattingEnabled = true;
+            cbx_People.Location = new System.Drawing.Point(31, 178);
+            cbx_People.Name = "cbx_People";
+            cbx_People.Size = new System.Drawing.Size(721, 28);
+            cbx_People.TabIndex = 7;
+            // 
+            // btn_LoadData
+            // 
+            btn_LoadData.Location = new System.Drawing.Point(31, 273);
+            btn_LoadData.Name = "btn_LoadData";
+            btn_LoadData.Size = new System.Drawing.Size(148, 29);
+            btn_LoadData.TabIndex = 8;
+            btn_LoadData.Text = "LoadData";
+            btn_LoadData.UseVisualStyleBackColor = true;
+            btn_LoadData.Click += btn_LoadData_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(btn_LoadData);
+            Controls.Add(cbx_People);
             Controls.Add(btn_Div);
             Controls.Add(btn_Mult);
             Controls.Add(btn_Resta);
@@ -140,6 +162,8 @@ namespace Semana7
         private System.Windows.Forms.Button btn_Resta;
         private System.Windows.Forms.Button btn_Mult;
         private System.Windows.Forms.Button btn_Div;
+        private System.Windows.Forms.ComboBox cbx_People;
+        private System.Windows.Forms.Button btn_LoadData;
     }
 }
 

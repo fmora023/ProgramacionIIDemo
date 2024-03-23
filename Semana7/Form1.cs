@@ -13,6 +13,8 @@ namespace Semana7
     {
         private Calculator Calculator { get; set; }
 
+        private PersonGenerator PersonGenerator { get; set; }
+
         private readonly string DefaultValue = "1";
 
         /// <summary>
@@ -20,6 +22,8 @@ namespace Semana7
         /// </summary>
         public Form1()
         {
+            this.PersonGenerator = new PersonGenerator();
+            this.PersonGenerator.InitializePeople();
             this.Calculator = Calculator.GetInstance();
             InitializeComponent();
             this.ResetValues();
@@ -72,6 +76,13 @@ namespace Semana7
         {
             this.tbx_Valor1.Text = this.DefaultValue;
             this.tbx_Valor2.Text = this.DefaultValue;
+        }
+
+        private void btn_LoadData_Click(object sender, EventArgs e)
+        {
+            this.cbx_People.Items.Clear();
+            this.cbx_People.Items.AddRange(this.PersonGenerator.People.Select(p => p.ToString()).ToArray());
+            MessageBox.Show("Datos cargados correctamente");
         }
     }
 }
