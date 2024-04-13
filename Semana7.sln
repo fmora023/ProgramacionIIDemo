@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controller", "Controller\Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E484C50B-786A-4B84-9919-3E222079C819}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller.Test", "TestProject1\Controller.Test.csproj", "{DEE0BCD2-67D7-4E56-8F85-FEC6A32C4F0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controller.Test", "TestProject1\Controller.Test.csproj", "{DEE0BCD2-67D7-4E56-8F85-FEC6A32C4F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{FDEA9A1A-8DBC-4B9B-8887-FFA9F22F974E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads", "Threads\Threads.csproj", "{FDEA9A1A-8DBC-4B9B-8887-FFA9F22F974E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDemo", "FileDemo\FileDemo.csproj", "{F181E783-35F5-4903-81E6-E92C8E0E2ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDemoTest", "FileDemoTest\FileDemoTest.csproj", "{5B998A07-6DC8-495B-B25A-D18E97C52EDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,12 +45,21 @@ Global
 		{FDEA9A1A-8DBC-4B9B-8887-FFA9F22F974E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDEA9A1A-8DBC-4B9B-8887-FFA9F22F974E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDEA9A1A-8DBC-4B9B-8887-FFA9F22F974E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F181E783-35F5-4903-81E6-E92C8E0E2ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F181E783-35F5-4903-81E6-E92C8E0E2ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F181E783-35F5-4903-81E6-E92C8E0E2ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F181E783-35F5-4903-81E6-E92C8E0E2ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B998A07-6DC8-495B-B25A-D18E97C52EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B998A07-6DC8-495B-B25A-D18E97C52EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B998A07-6DC8-495B-B25A-D18E97C52EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B998A07-6DC8-495B-B25A-D18E97C52EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DEE0BCD2-67D7-4E56-8F85-FEC6A32C4F0E} = {E484C50B-786A-4B84-9919-3E222079C819}
+		{5B998A07-6DC8-495B-B25A-D18E97C52EDC} = {E484C50B-786A-4B84-9919-3E222079C819}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E926025E-AA18-4FE9-B9DB-5096E06EBE50}
