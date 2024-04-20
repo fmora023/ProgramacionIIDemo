@@ -27,6 +27,34 @@ namespace FileDemo
         }
 
         /// <summary>
+        /// Loads the cals.
+        /// </summary>
+        /// <param name="path">The path.</param>
+        /// <returns> all the cals loaded from the file in a list. </returns>
+        public static List<Cals> LoadCals(string path)
+        {
+            var format = "yyyy/MM/dd";
+            var cals = new List<Cals>();
+            var lines = File.ReadAllLines(path);
+            for (var i = 1; i < lines.Length; i++)
+            {
+                var parts = lines[i].Split(',');
+                var date = DateTime.ParseExact(parts[1].Replace("\'", string.Empty), format, null);
+                var fileEntry = new Cals()
+                {
+                    Duration = int.Parse(parts[0]),
+                    Date = date,
+                    Pulse = int.Parse(parts[2]),
+                    MaxPulse = int.Parse(parts[3]),
+                    Calories = double.Parse(parts[4]),
+                };
+                cals.Add(fileEntry);
+            }
+
+            return cals;
+        }
+
+        /// <summary>
         /// Saves the cars.
         /// </summary>
         /// <param name="path">The path.</param>

@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "S:\\UPI\\Programacion II 2024\\Demo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|S:\\UPI\\Programacion II 2024\\Demo\\filedemo\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B998A07-6DC8-495B-B25A-D18E97C52EDC}|FileDemoTest\\FileDemoTest.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemotest\\fileloadertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B998A07-6DC8-495B-B25A-D18E97C52EDC}|FileDemoTest\\FileDemoTest.csproj|solutionrelative:filedemotest\\fileloadertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemo\\calories.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\calories.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B998A07-6DC8-495B-B25A-D18E97C52EDC}|FileDemoTest\\FileDemoTest.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemotest\\cartest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B998A07-6DC8-495B-B25A-D18E97C52EDC}|FileDemoTest\\FileDemoTest.csproj|solutionrelative:filedemotest\\cartest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemo\\cars.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\cars.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemo\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\fileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemo\\model\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\model\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemo\\model\\icarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\model\\icarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|s:\\upi\\programacion ii 2024\\demo\\filedemo\\model\\cals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F181E783-35F5-4903-81E6-E92C8E0E2ECA}|FileDemo\\FileDemo.csproj|solutionrelative:filedemo\\model\\cals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cals.cs",
+              "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Model\\Cals.cs",
+              "RelativeDocumentMoniker": "FileDemo\\Model\\Cals.cs",
+              "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Model\\Cals.cs",
+              "RelativeToolTip": "FileDemo\\Model\\Cals.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAApwDQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T01:04:23.253Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -58,118 +51,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "calories.csv",
               "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\calories.csv",
               "RelativeDocumentMoniker": "FileDemo\\calories.csv",
               "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\calories.csv",
               "RelativeToolTip": "FileDemo\\calories.csv",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-04-13T02:04:45.49Z",
+              "WhenOpened": "2024-04-20T00:59:55.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CarTest.cs",
-              "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemoTest\\CarTest.cs",
-              "RelativeDocumentMoniker": "FileDemoTest\\CarTest.cs",
-              "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemoTest\\CarTest.cs",
-              "RelativeToolTip": "FileDemoTest\\CarTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Title": "FileLoaderTest.cs",
+              "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemoTest\\FileLoaderTest.cs",
+              "RelativeDocumentMoniker": "FileDemoTest\\FileLoaderTest.cs",
+              "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemoTest\\FileLoaderTest.cs",
+              "RelativeToolTip": "FileDemoTest\\FileLoaderTest.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwFcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:59:03.962Z",
+              "WhenOpened": "2024-04-20T00:28:04.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Form1.cs",
-              "RelativeDocumentMoniker": "FileDemo\\Form1.cs",
-              "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Form1.cs",
-              "RelativeToolTip": "FileDemo\\Form1.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAYwC0AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:07:09.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Form1.cs",
-              "RelativeDocumentMoniker": "FileDemo\\Form1.cs",
-              "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Form1.cs [Design]",
-              "RelativeToolTip": "FileDemo\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:07:03.673Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "FileLoader.cs",
               "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\FileLoader.cs",
               "RelativeDocumentMoniker": "FileDemo\\FileLoader.cs",
               "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\FileLoader.cs",
               "RelativeToolTip": "FileDemo\\FileLoader.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAvwCoAAAAIAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAlwCkAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T00:53:05.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICarModel.cs",
-              "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Model\\ICarModel.cs",
-              "RelativeDocumentMoniker": "FileDemo\\Model\\ICarModel.cs",
-              "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Model\\ICarModel.cs",
-              "RelativeToolTip": "FileDemo\\Model\\ICarModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T00:47:56.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CarModel.cs",
-              "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Model\\CarModel.cs",
-              "RelativeDocumentMoniker": "FileDemo\\Model\\CarModel.cs",
-              "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Model\\CarModel.cs",
-              "RelativeToolTip": "FileDemo\\Model\\CarModel.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwEUAAACKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T00:47:19.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Program.cs",
-              "RelativeDocumentMoniker": "FileDemo\\Program.cs",
-              "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\Program.cs",
-              "RelativeToolTip": "FileDemo\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T00:46:46.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "cars.csv",
-              "DocumentMoniker": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\cars.csv",
-              "RelativeDocumentMoniker": "FileDemo\\cars.csv",
-              "ToolTip": "S:\\UPI\\Programacion II 2024\\Demo\\FileDemo\\cars.csv",
-              "RelativeToolTip": "FileDemo\\cars.csv",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-04-13T00:44:23.974Z",
               "EditorCaption": ""
             }
           ]
